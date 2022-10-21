@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 67
+  controlID: 74
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -70,11 +70,12 @@ MonoBehaviour:
     height: 675
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,11 +95,11 @@ MonoBehaviour:
     y: 0
     width: 258
     height: 399
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -122,10 +123,12 @@ MonoBehaviour:
     height: 276
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
   - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -223,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 95
+  controlID: 62
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 96
+  controlID: 63
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,15 +273,432 @@ MonoBehaviour:
     height: 399
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
-  - {fileID: 13}
-  - {fileID: 12}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1043
+    y: 73
+    width: 322
+    height: 654
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 5
+  activeTab: 5
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2022-09-24T06:51:03.903+07:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[unknown]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 6c2325e58f94746a27e8214e5e9d44fe177a810f
+      mergeA: 
+      mergeB: 
+      authorName: Fauza
+      authorEmail: naufalfauza70@gmail.com
+      commitEmail: naufalfauza70@gmail.com
+      commitName: Fauza
+      summary: Initial commit
+      description: 
+      timeString: 2022-09-24T06:51:10.000+07:00
+      commitTimeString: 2022-09-24T06:51:10.000+07:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2022-09-24T06:51:13.955+07:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2022-09-24T06:51:13.140+07:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 6c2325e58f94746a27e8214e5e9d44fe177a810f
+        mergeA: 
+        mergeB: 
+        authorName: Fauza
+        authorEmail: naufalfauza70@gmail.com
+        commitEmail: naufalfauza70@gmail.com
+        commitName: Fauza
+        summary: Initial commit
+        description: 
+        timeString: 2022-09-24T06:51:10.000+07:00
+        commitTimeString: 2022-09-24T06:51:10.000+07:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\USER\AppData\Local\Unity\2D Platformer\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Users\USER\AppData\Local\GitHubUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\USER\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2022-10-20T23:56:35.808+07:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/Uzzafa/2D-Platformer.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/Uzzafa/2D-Platformer.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: Fauza
+      gitEmail: naufalfauza70@gmail.com
+      newGitName: Fauza
+      newGitEmail: naufalfauza70@gmail.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2022-10-21T00:09:34.067+07:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/Uzzafa/2D-Platformer.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/Uzzafa/2D-Platformer.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2022-10-20T19:04:04.408+07:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2022-10-20T19:04:05.125+07:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2022-10-20T19:14:41.857+07:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,10 +718,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 258
-    y: 73
-    width: 783
-    height: 378
+    x: 0
+    y: 472
+    width: 1042
+    height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -309,15 +729,32 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 8070044153242234261, guid: 155f9af208a948c43b84c6d17970ceb0, type: 2}
+    - {fileID: -346561351256268087, guid: 16c275b41deb40b439ef2ed5de3de2fd, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.70852166
+    - e00: 0.5498436
       e01: 0
       e02: 0
-      e03: -1.4684825
+      e03: 96.90964
       e10: 0
-      e11: 0.70852166
+      e11: 0.5498436
       e12: 0
-      e13: 32.543747
+      e13: 6.100442
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.81215703
+      e01: 0
+      e02: 0
+      e03: 76.79781
+      e10: 0
+      e11: 0.81215703
+      e12: 0
+      e13: 24.041187
       e20: 0
       e21: 0
       e22: 1
@@ -327,9 +764,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 155f9af208a948c43b84c6d17970ceb0, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 16c275b41deb40b439ef2ed5de3de2fd, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 8070044153242234261, guid: 155f9af208a948c43b84c6d17970ceb0, type: 2}
+  - m_Target: {fileID: -346561351256268087, guid: 16c275b41deb40b439ef2ed5de3de2fd, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -342,7 +779,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,18 +799,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 258
-    y: 73
-    width: 783
-    height: 378
+    x: 0
+    y: 472
+    width: 1042
+    height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -4452
---- !u!114 &14
+  m_LastSelectedObjectID: 24628
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -414,22 +851,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\USER\AppData\Local\Unity\2D Platformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 14630000
-    m_LastClickedID: 25364
-    m_ExpandedIDs: 00000000de62000000ca9a3bffffff7f
+    m_SelectedIDs: fc610000
+    m_LastClickedID: 25084
+    m_ExpandedIDs: 00000000ec61000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +894,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000ec610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,7 +922,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000fe790000
+    m_ExpandedInstanceIDs: c6230000fe790000d4610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,7 +950,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -554,7 +991,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -585,9 +1022,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: aca9ffffdaafffff1efbffff
+      m_SelectedIDs: 92f9ffff
+      m_LastClickedID: -1646
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -611,7 +1048,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,7 +1147,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 26}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -858,9 +1295,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.0201507, y: 0.37998945, z: -0.025403295}
+    m_Target: {x: -2.748156, y: -0.34295404, z: -0.018750815}
     speed: 2
-    m_Value: {x: -0.9658699, y: 0.35334855, z: -0.024231099}
+    m_Value: {x: -2.748156, y: -0.34295404, z: -0.018750815}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -911,9 +1348,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.722108
+    m_Target: 9.890397
     speed: 2
-    m_Value: 2.604888
+    m_Value: 9.890397
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -938,7 +1375,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -999,7 +1436,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1030,7 +1467,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1050,10 +1487,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 472
+    width: 1042
+    height: 255
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
